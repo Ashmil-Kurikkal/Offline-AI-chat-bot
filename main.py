@@ -135,16 +135,16 @@ def model_select():
     
     selected_model=int(input("Input 1 for Alice-uncensored based on llama2. \nInput 2 for Alice-censored based on llama3. \nInput 3 for model with better coding skills but lower communication skills."))
     if selected_model==1:
-        selected_model="Alice"
+        selected_model="llama2-uncensored"
     elif selected_model==2:
-        selected_model="Alice3"
+        selected_model="llama3"
     elif selected_model==3:
         selected_model="deepseek-coder:6.7b"
 def main():
 
     configure()
     
-    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n----------------ALICE by ASHMIL based on llama2-uncensored and llama3-------------------------------------------------------------------------\nINSTRUCTIONS \n\n !READ ME!: The face recognition module will start soon. FACE UNLOCK with Ashmil's face. Right after that press any button to proceed.\n\n\n EXIT : To quit the chat just input 'talk to you later' after you start the conversation.")
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n----------------ALICE by ASHMIL based on llama2-uncensored and llama3-------------------------------------------------------------------------\nINSTRUCTIONS \n\n !READ ME!: The face recognition module will start soon. FACE UNLOCK with user's face. Right after that press any button to proceed.\n\n\n EXIT : To quit the chat just input 'talk to you later' after you start the conversation.")
     global engine
     
     
@@ -177,7 +177,7 @@ def main():
            
             elif "ashmil" in text.lower():
                 print("https://github.com/Ashmil-Kurikkal")
-                text = os.getenv('ASHMIL_INFO')
+                text = os.getenv('USER_INFO')
                 response = chat(messages)
                 messages.append(response)
                 speak_text(output)
