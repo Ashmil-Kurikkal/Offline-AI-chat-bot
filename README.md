@@ -20,7 +20,7 @@ All Thanks to Ollama API
 
 # Chatbot with Ollama API
 
-Welcome to the Chatbot project! This repository contains a Python script that leverages the Ollama API to run various models, including Llama2-Uncensored, Llama3, and DeepSeekCoder. The chatbot is designed to provide a range of interactive features, powered by advanced AI models.
+Welcome to the Chatbot project! This repository contains a Python script that leverages the Ollama API to run various models, including Llama2-Uncensored, Llama3, and DeepSeekCoder. The chatbot is designed to provide a range of interactive features, powered by advanced AI models. The project has speech recognition as well typing as input methods and displays as well as speaks back the responses from the API.
 
 ## Overview
 
