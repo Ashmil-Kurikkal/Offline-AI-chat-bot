@@ -106,7 +106,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
 ## Contact
-
-Your Name - [@X account](https://x.com/ashmilkurikkal) - ashmilkurikkal12@gmail.com
+ashmilkurikkal - [@X account](https://x.com/ashmilkurikkal) - ashmilkurikkal12@gmail.com
 
 Project Link: [Offline Chat Bot](https://github.com/Ashmil-Kurikkal/Offline-AI-chat-bot/)
